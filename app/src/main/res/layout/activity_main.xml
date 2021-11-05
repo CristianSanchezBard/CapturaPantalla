@@ -10,12 +10,12 @@
         android:id="@+id/tvctm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ctm"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="¿IBRAHIMOVIC ES TU DIOS?"
+        app:layout_constraintBottom_toTopOf="@+id/sActivalo"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <RadioGroup
         android:id="@+id/radioGroup"
@@ -54,18 +54,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvctm"
-        app:layout_constraintVertical_bias="0.163" />
+        app:layout_constraintTop_toBottomOf="@+id/sActivalo"
+        app:layout_constraintVertical_bias="0.249" />
 
     <Switch
-        android:id="@+id/switch1"
+        android:id="@+id/sActivalo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Switch"
-        app:layout_constraintBottom_toTopOf="@+id/tvctm"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btPresidente"
